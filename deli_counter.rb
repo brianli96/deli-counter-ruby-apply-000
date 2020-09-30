@@ -1,6 +1,7 @@
 # Write your code here.
 def line(array) 
   if array.length >= 1
+    puts array
     count = 1
     newArray = []
     array.each do |name|
