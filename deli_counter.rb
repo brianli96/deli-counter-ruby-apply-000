@@ -13,9 +13,9 @@ def line(array)
   end
 end
 
-def take_a_number(line, string)
-  line.push(string) 
-  puts "Welcome, #{string}. You are number #{line.length} in line."
+def take_a_number(line, person)
+  line.push(person) 
+  puts "Welcome, #{person}. You are number #{line.length} in line."
 end
 
 def now_serving(line)
