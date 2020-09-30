@@ -12,7 +12,7 @@ def line(array)
 end
 
 def take_a_number(line, string)
-  line.push(string) # could say: "line << new_person"
+  line.push(string) 
   puts "Welcome, #{string}. You are number #{line.length} in line."
 end
 
