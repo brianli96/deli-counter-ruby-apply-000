@@ -2,12 +2,10 @@
 def line(array) 
   if array.length >= 1
     newArray = []
-    counter = 1 
     array.each do |name|
       newArray.push("#{counter}. #{name}")
-      counter += 1 
     end 
-    puts "The line is currently: #{newArray.join(" ")}"
+    puts "The line is currently: #{newArray}"
   else
     puts "The line is currently empty."
   end
