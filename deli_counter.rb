@@ -5,7 +5,7 @@ def line(array)
     newArray = []
     array.each do |name|
       newArray.push("#{count}. #{name}")
-      count =+ 1
+      count += 1
     end
     puts "The line is currently: #{newArray.join("")}"
   else
